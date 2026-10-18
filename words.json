@@ -1,0 +1,718 @@
+{
+  "title": "Bosit-Vocab English–Uzbek Vocabulary",
+  "version": "0.1.0",
+  "language_pair": [
+    "en",
+    "uz"
+  ],
+  "note": "Starter batch for integration testing. CEFR levels are approximate; review translations and levels before a public educational release.",
+  "words": [
+    {
+      "id": 1,
+      "en": "about",
+      "uz": "haqida",
+      "ex": "This book is about animals.",
+      "level": "A1"
+    },
+    {
+      "id": 2,
+      "en": "above",
+      "uz": "yuqorida; ustida",
+      "ex": "The picture is above the sofa.",
+      "level": "A1"
+    },
+    {
+      "id": 3,
+      "en": "accept",
+      "uz": "qabul qilmoq",
+      "ex": "I accept your invitation.",
+      "level": "A2"
+    },
+    {
+      "id": 4,
+      "en": "accident",
+      "uz": "baxtsiz hodisa",
+      "ex": "He had a small accident.",
+      "level": "A2"
+    },
+    {
+      "id": 5,
+      "en": "across",
+      "uz": "narigi tomoniga; bo‘ylab",
+      "ex": "We walked across the street.",
+      "level": "A1"
+    },
+    {
+      "id": 6,
+      "en": "act",
+      "uz": "harakat qilmoq; rol o‘ynamoq",
+      "ex": "You should act quickly.",
+      "level": "A2"
+    },
+    {
+      "id": 7,
+      "en": "action",
+      "uz": "harakat; chora",
+      "ex": "We need to take action.",
+      "level": "A2"
+    },
+    {
+      "id": 8,
+      "en": "active",
+      "uz": "faol",
+      "ex": "My grandfather is still active.",
+      "level": "A2"
+    },
+    {
+      "id": 9,
+      "en": "actually",
+      "uz": "aslida",
+      "ex": "Actually, I already know her.",
+      "level": "B1"
+    },
+    {
+      "id": 10,
+      "en": "add",
+      "uz": "qo‘shmoq",
+      "ex": "Add some water to the bowl.",
+      "level": "A1"
+    },
+    {
+      "id": 11,
+      "en": "address",
+      "uz": "manzil",
+      "ex": "Please write your address here.",
+      "level": "A1"
+    },
+    {
+      "id": 12,
+      "en": "advice",
+      "uz": "maslahat",
+      "ex": "Thank you for your advice.",
+      "level": "A2"
+    },
+    {
+      "id": 13,
+      "en": "afford",
+      "uz": "qurbi yetmoq",
+      "ex": "I cannot afford a new laptop.",
+      "level": "B1"
+    },
+    {
+      "id": 14,
+      "en": "afraid",
+      "uz": "qo‘rqayotgan",
+      "ex": "She is afraid of spiders.",
+      "level": "A1"
+    },
+    {
+      "id": 15,
+      "en": "after",
+      "uz": "keyin",
+      "ex": "We went home after school.",
+      "level": "A1"
+    },
+    {
+      "id": 16,
+      "en": "again",
+      "uz": "yana; qaytadan",
+      "ex": "Could you say that again?",
+      "level": "A1"
+    },
+    {
+      "id": 17,
+      "en": "against",
+      "uz": "qarshi",
+      "ex": "Our team played against a strong team.",
+      "level": "A2"
+    },
+    {
+      "id": 18,
+      "en": "age",
+      "uz": "yosh",
+      "ex": "What is your age?",
+      "level": "A1"
+    },
+    {
+      "id": 19,
+      "en": "agree",
+      "uz": "rozi bo‘lmoq",
+      "ex": "I agree with your idea.",
+      "level": "A2"
+    },
+    {
+      "id": 20,
+      "en": "ahead",
+      "uz": "oldinda",
+      "ex": "There is a bridge ahead.",
+      "level": "A2"
+    },
+    {
+      "id": 21,
+      "en": "allow",
+      "uz": "ruxsat bermoq",
+      "ex": "This ticket allows one entry.",
+      "level": "A2"
+    },
+    {
+      "id": 22,
+      "en": "almost",
+      "uz": "deyarli",
+      "ex": "The work is almost finished.",
+      "level": "A2"
+    },
+    {
+      "id": 23,
+      "en": "alone",
+      "uz": "yolg‘iz",
+      "ex": "He lives alone.",
+      "level": "A1"
+    },
+    {
+      "id": 24,
+      "en": "along",
+      "uz": "bo‘ylab",
+      "ex": "We walked along the river.",
+      "level": "A2"
+    },
+    {
+      "id": 25,
+      "en": "already",
+      "uz": "allaqachon",
+      "ex": "I have already eaten.",
+      "level": "A2"
+    },
+    {
+      "id": 26,
+      "en": "although",
+      "uz": "garchi",
+      "ex": "Although it was cold, we went out.",
+      "level": "B1"
+    },
+    {
+      "id": 27,
+      "en": "always",
+      "uz": "har doim",
+      "ex": "She always arrives on time.",
+      "level": "A1"
+    },
+    {
+      "id": 28,
+      "en": "amazing",
+      "uz": "hayratlanarli",
+      "ex": "We saw an amazing view.",
+      "level": "A2"
+    },
+    {
+      "id": 29,
+      "en": "among",
+      "uz": "orasida",
+      "ex": "She was among friends.",
+      "level": "B1"
+    },
+    {
+      "id": 30,
+      "en": "amount",
+      "uz": "miqdor",
+      "ex": "Use a small amount of salt.",
+      "level": "A2"
+    },
+    {
+      "id": 31,
+      "en": "ancient",
+      "uz": "qadimiy",
+      "ex": "They visited an ancient city.",
+      "level": "B1"
+    },
+    {
+      "id": 32,
+      "en": "angry",
+      "uz": "jahli chiqqan",
+      "ex": "He was angry about the delay.",
+      "level": "A1"
+    },
+    {
+      "id": 33,
+      "en": "animal",
+      "uz": "hayvon",
+      "ex": "The animal needs water.",
+      "level": "A1"
+    },
+    {
+      "id": 34,
+      "en": "another",
+      "uz": "yana bir; boshqa",
+      "ex": "Would you like another cup?",
+      "level": "A1"
+    },
+    {
+      "id": 35,
+      "en": "answer",
+      "uz": "javob; javob bermoq",
+      "ex": "Please answer the question.",
+      "level": "A1"
+    },
+    {
+      "id": 36,
+      "en": "appear",
+      "uz": "paydo bo‘lmoq; ko‘rinmoq",
+      "ex": "Stars appear after sunset.",
+      "level": "A2"
+    },
+    {
+      "id": 37,
+      "en": "area",
+      "uz": "hudud; maydon",
+      "ex": "This area is very quiet.",
+      "level": "A2"
+    },
+    {
+      "id": 38,
+      "en": "arrive",
+      "uz": "yetib kelmoq",
+      "ex": "We arrive at school at eight.",
+      "level": "A1"
+    },
+    {
+      "id": 39,
+      "en": "article",
+      "uz": "maqola",
+      "ex": "I read an article about space.",
+      "level": "A2"
+    },
+    {
+      "id": 40,
+      "en": "artist",
+      "uz": "rassom; san’atkor",
+      "ex": "The artist painted a landscape.",
+      "level": "A2"
+    },
+    {
+      "id": 41,
+      "en": "asleep",
+      "uz": "uxlayotgan",
+      "ex": "The baby is asleep.",
+      "level": "A2"
+    },
+    {
+      "id": 42,
+      "en": "attention",
+      "uz": "diqqat",
+      "ex": "Please pay attention.",
+      "level": "A2"
+    },
+    {
+      "id": 43,
+      "en": "available",
+      "uz": "mavjud; foydalanish mumkin",
+      "ex": "The book is available online.",
+      "level": "B1"
+    },
+    {
+      "id": 44,
+      "en": "avoid",
+      "uz": "chetlab o‘tmoq; oldini olmoq",
+      "ex": "Try to avoid making the same mistake.",
+      "level": "B1"
+    },
+    {
+      "id": 45,
+      "en": "awake",
+      "uz": "uyg‘oq",
+      "ex": "I was awake before sunrise.",
+      "level": "A2"
+    },
+    {
+      "id": 46,
+      "en": "balance",
+      "uz": "muvozanat; muvozanat saqlamoq",
+      "ex": "It is important to keep your balance.",
+      "level": "B1"
+    },
+    {
+      "id": 47,
+      "en": "basic",
+      "uz": "asosiy",
+      "ex": "We learned some basic phrases.",
+      "level": "A2"
+    },
+    {
+      "id": 48,
+      "en": "behave",
+      "uz": "o‘zini tutmoq",
+      "ex": "Please behave politely.",
+      "level": "A2"
+    },
+    {
+      "id": 49,
+      "en": "believe",
+      "uz": "ishonmoq",
+      "ex": "I believe your story.",
+      "level": "A1"
+    },
+    {
+      "id": 50,
+      "en": "belong",
+      "uz": "tegishli bo‘lmoq",
+      "ex": "These keys belong to my brother.",
+      "level": "A2"
+    },
+    {
+      "id": 51,
+      "en": "below",
+      "uz": "pastda; quyida",
+      "ex": "Write your name below the line.",
+      "level": "A1"
+    },
+    {
+      "id": 52,
+      "en": "between",
+      "uz": "orasida",
+      "ex": "The shop is between the bank and the school.",
+      "level": "A1"
+    },
+    {
+      "id": 53,
+      "en": "borrow",
+      "uz": "qarzga olmoq",
+      "ex": "Can I borrow your pencil?",
+      "level": "A1"
+    },
+    {
+      "id": 54,
+      "en": "brave",
+      "uz": "jasur",
+      "ex": "The brave firefighter helped them.",
+      "level": "A2"
+    },
+    {
+      "id": 55,
+      "en": "brief",
+      "uz": "qisqa; lo‘nda",
+      "ex": "We had a brief meeting.",
+      "level": "B1"
+    },
+    {
+      "id": 56,
+      "en": "bright",
+      "uz": "yorqin; aqlli",
+      "ex": "The room is bright and warm.",
+      "level": "A2"
+    },
+    {
+      "id": 57,
+      "en": "build",
+      "uz": "qurmoq",
+      "ex": "They want to build a new school.",
+      "level": "A1"
+    },
+    {
+      "id": 58,
+      "en": "careful",
+      "uz": "ehtiyotkor",
+      "ex": "Be careful when crossing the road.",
+      "level": "A2"
+    },
+    {
+      "id": 59,
+      "en": "cause",
+      "uz": "sabab; sabab bo‘lmoq",
+      "ex": "What caused the problem?",
+      "level": "B1"
+    },
+    {
+      "id": 60,
+      "en": "celebrate",
+      "uz": "nishonlamoq",
+      "ex": "We celebrate her birthday today.",
+      "level": "A2"
+    },
+    {
+      "id": 61,
+      "en": "certain",
+      "uz": "aniq; muayyan",
+      "ex": "I am certain about the answer.",
+      "level": "B1"
+    },
+    {
+      "id": 62,
+      "en": "chance",
+      "uz": "imkoniyat; ehtimol",
+      "ex": "Everyone deserves a chance.",
+      "level": "A2"
+    },
+    {
+      "id": 63,
+      "en": "change",
+      "uz": "o‘zgartirmoq; o‘zgarish",
+      "ex": "Small habits can change your life.",
+      "level": "A1"
+    },
+    {
+      "id": 64,
+      "en": "choice",
+      "uz": "tanlov",
+      "ex": "You have a choice.",
+      "level": "A2"
+    },
+    {
+      "id": 65,
+      "en": "choose",
+      "uz": "tanlamoq",
+      "ex": "Choose the best answer.",
+      "level": "A2"
+    },
+    {
+      "id": 66,
+      "en": "clear",
+      "uz": "aniq; ravshan",
+      "ex": "The instructions are clear.",
+      "level": "A2"
+    },
+    {
+      "id": 67,
+      "en": "clever",
+      "uz": "aqlli; ziyrak",
+      "ex": "That was a clever solution.",
+      "level": "A2"
+    },
+    {
+      "id": 68,
+      "en": "common",
+      "uz": "keng tarqalgan; umumiy",
+      "ex": "This is a common mistake.",
+      "level": "A2"
+    },
+    {
+      "id": 69,
+      "en": "compare",
+      "uz": "taqqoslamoq",
+      "ex": "Compare the two pictures.",
+      "level": "A2"
+    },
+    {
+      "id": 70,
+      "en": "complete",
+      "uz": "tugatmoq; to‘liq",
+      "ex": "Please complete the form.",
+      "level": "A2"
+    },
+    {
+      "id": 71,
+      "en": "consider",
+      "uz": "ko‘rib chiqmoq; o‘ylab ko‘rmoq",
+      "ex": "Please consider my suggestion.",
+      "level": "B1"
+    },
+    {
+      "id": 72,
+      "en": "continue",
+      "uz": "davom ettirmoq",
+      "ex": "Please continue reading.",
+      "level": "A2"
+    },
+    {
+      "id": 73,
+      "en": "convenient",
+      "uz": "qulay",
+      "ex": "Online lessons are convenient for me.",
+      "level": "B1"
+    },
+    {
+      "id": 74,
+      "en": "create",
+      "uz": "yaratmoq",
+      "ex": "They create useful learning tools.",
+      "level": "A2"
+    },
+    {
+      "id": 75,
+      "en": "curious",
+      "uz": "qiziquvchan",
+      "ex": "The curious child asked many questions.",
+      "level": "A2"
+    },
+    {
+      "id": 76,
+      "en": "decide",
+      "uz": "qaror qilmoq",
+      "ex": "We need to decide soon.",
+      "level": "A2"
+    },
+    {
+      "id": 77,
+      "en": "develop",
+      "uz": "rivojlantirmoq",
+      "ex": "Reading helps develop language skills.",
+      "level": "B1"
+    },
+    {
+      "id": 78,
+      "en": "different",
+      "uz": "boshqa; turli",
+      "ex": "We have different opinions.",
+      "level": "A1"
+    },
+    {
+      "id": 79,
+      "en": "difficult",
+      "uz": "qiyin",
+      "ex": "This question is difficult.",
+      "level": "A1"
+    },
+    {
+      "id": 80,
+      "en": "discover",
+      "uz": "kashf qilmoq; bilib olmoq",
+      "ex": "Scientists discover new things.",
+      "level": "A2"
+    },
+    {
+      "id": 81,
+      "en": "early",
+      "uz": "erta",
+      "ex": "I woke up early today.",
+      "level": "A1"
+    },
+    {
+      "id": 82,
+      "en": "effort",
+      "uz": "harakat; sa’y-harakat",
+      "ex": "Learning a language takes effort.",
+      "level": "B1"
+    },
+    {
+      "id": 83,
+      "en": "enough",
+      "uz": "yetarli",
+      "ex": "We have enough time.",
+      "level": "A1"
+    },
+    {
+      "id": 84,
+      "en": "environment",
+      "uz": "atrof-muhit",
+      "ex": "We should protect the environment.",
+      "level": "B1"
+    },
+    {
+      "id": 85,
+      "en": "especially",
+      "uz": "ayniqsa",
+      "ex": "I enjoy fruit, especially apples.",
+      "level": "B1"
+    },
+    {
+      "id": 86,
+      "en": "example",
+      "uz": "misol",
+      "ex": "Can you give an example?",
+      "level": "A1"
+    },
+    {
+      "id": 87,
+      "en": "experience",
+      "uz": "tajriba; boshdan kechirmoq",
+      "ex": "She has experience in teaching.",
+      "level": "B1"
+    },
+    {
+      "id": 88,
+      "en": "explain",
+      "uz": "tushuntirmoq",
+      "ex": "Can you explain this word?",
+      "level": "A2"
+    },
+    {
+      "id": 89,
+      "en": "familiar",
+      "uz": "tanish",
+      "ex": "This song sounds familiar.",
+      "level": "B1"
+    },
+    {
+      "id": 90,
+      "en": "famous",
+      "uz": "mashhur",
+      "ex": "Samarkand is famous for its history.",
+      "level": "A2"
+    },
+    {
+      "id": 91,
+      "en": "finish",
+      "uz": "tugatmoq",
+      "ex": "I finish work at five.",
+      "level": "A1"
+    },
+    {
+      "id": 92,
+      "en": "follow",
+      "uz": "ergashmoq; amal qilmoq",
+      "ex": "Follow the instructions carefully.",
+      "level": "A2"
+    },
+    {
+      "id": 93,
+      "en": "forget",
+      "uz": "unutmoq",
+      "ex": "Do not forget your notebook.",
+      "level": "A1"
+    },
+    {
+      "id": 94,
+      "en": "friendly",
+      "uz": "do‘stona; samimiy",
+      "ex": "Our neighbours are friendly.",
+      "level": "A1"
+    },
+    {
+      "id": 95,
+      "en": "future",
+      "uz": "kelajak",
+      "ex": "She wants to become a doctor in the future.",
+      "level": "A1"
+    },
+    {
+      "id": 96,
+      "en": "goal",
+      "uz": "maqsad",
+      "ex": "My goal is to learn ten words a day.",
+      "level": "A2"
+    },
+    {
+      "id": 97,
+      "en": "improve",
+      "uz": "yaxshilamoq",
+      "ex": "I want to improve my English.",
+      "level": "A1"
+    },
+    {
+      "id": 98,
+      "en": "opportunity",
+      "uz": "imkoniyat",
+      "ex": "This is a great opportunity to learn.",
+      "level": "B1"
+    },
+    {
+      "id": 99,
+      "en": "reliable",
+      "uz": "ishonchli",
+      "ex": "He is a reliable friend.",
+      "level": "B1"
+    },
+    {
+      "id": 100,
+      "en": "significant",
+      "uz": "muhim; sezilarli",
+      "ex": "We made significant progress.",
+      "level": "B2"
+    },
+    {
+      "id": 101,
+      "en": "sustainable",
+      "uz": "barqaror",
+      "ex": "We need sustainable solutions.",
+      "level": "B2"
+    }
+  ]
+}
