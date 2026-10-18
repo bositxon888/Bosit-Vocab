@@ -1,5 +1,8 @@
 <!doctype html>
 <html lang="uz">
+<button onclick="registerUser()">Ro‘yxatdan o‘tish</button>
+<button onclick="loginUser()">Kirish</button>
+<p id="authMessage"></p>
 <head><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Bosit Vocab — English learning</title>
@@ -10,6 +13,19 @@
 @media(max-width:900px){.app{grid-template-columns:1fr}.sidebar{padding:13px 15px;border-right:0;border-bottom:1px solid var(--line);gap:12px}.brand{font-size:18px}.nav{display:flex;overflow:auto}.nav button{white-space:nowrap;padding:10px}.side-note{display:none}.main{padding:22px 15px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.levels,.game-grid{grid-template-columns:1fr}.two-col{grid-template-columns:1fr}.hero .hero-icon{display:none}}@media(max-width:520px){.choices{grid-template-columns:1fr}.word-row{align-items:flex-start}.word-actions button{flex:1}}
 </style></head>
 <body><div class="app">
+
+<div id="authBox">
+  <h2>Bosit Vocab — Ro‘yxatdan o‘tish</h2>
+
+  <input id="email" type="email" placeholder="Email manzilingiz">
+
+  <input id="password" type="password" placeholder="Parol (kamida 6 ta belgi)">
+
+  <button onclick="registerUser()">Ro‘yxatdan o‘tish</button>
+
+  <p id="authMessage"></p>
+</div>
+
 <aside class="sidebar"><div class="brand"><div class="logo">B</div><div>Bosit Vocab<div style="font-size:11px;color:#8390a7;font-weight:600">LEARN • PRACTICE • GROW</div></div></div>
 <nav class="nav"><button class="active" data-view="home">⌂ <span>Bosh sahifa</span></button><button data-view="vocabulary">▤ <span>Lug‘atlar</span></button><button data-view="audio">🎧 <span>Audio va o‘qish</span></button><button data-view="games">✦ <span>O‘yinlar</span></button><button data-view="progress">▥ <span>Natijalar</span></button><button data-view="account">◉ <span>Akkaunt</span></button></nav><div class="side-note"><b>💡 Kunlik maslahat</b><br>So‘zni tinglang, baland ovozda takrorlang va gap ichida ishlating.</div></aside>
 <main class="main"><header class="top"><div><div class="eyebrow">YOUR ENGLISH JOURNEY</div><h1 id="greeting">Salom, o‘rganuvchi! 👋</h1><div class="muted">Bugun ingliz tilida yana bir qadam oldinga.</div></div><div class="profile"><div class="avatar" id="avatar">B</div><div><b id="profileName">Mehmon</b><div class="muted" style="font-size:12px">English learner</div></div></div></header>
@@ -62,4 +78,53 @@ function saveName(){state.name=document.getElementById("nameInput").value.trim()
 function exportData(){let blob=new Blob([JSON.stringify({state,words},null,2)],{type:"application/json"});let a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="bosit-vocab-data.json";a.click();URL.revokeObjectURL(a.href)}
 function resetData(){if(confirm("Namuna ma’lumotlarini tozalaymizmi?")){localStorage.removeItem("bositVocabDemo");state={name:"",level:"A1",learned:[],saved:[],points:0,quizCount:0};persist();renderWords();alert("Mahalliy namuna ma’lumotlari tozalandi.")}}
 renderDaily();updateAudio();updateStats();
+
+async function registerUser() {
+  const email = document.getElementById("email").value.trim();
+  const password = document.getElementById("password").value;
+  const message = document.getElementById("authMessage");
+
+  if (!email || !password) {
+    message.textContent = "Email va parolni kiriting!";
+    return;
+  }
+
+  const { data, error } = await supabaseClient.auth.signUp({
+    email: email,
+    password: password
+  });
+
+  if (error) {
+    message.textContent = "Xatolik: " + error.message;
+async function loginUser() {
+  const email = document.getElementById("email").value.trim();
+  const password = document.getElementById("password").value;
+  const message = document.getElementById("authMessage");
+
+  if (!email || !password) {
+    message.textContent = "Email va parolni kiriting!";
+    return;
+  }
+
+  const { data, error } =
+    await supabaseClient.auth.signInWithPassword({
+      email: email,
+      password: password
+    });
+
+  if (error) {
+    message.textContent = "Xatolik: " + error.message;
+    return;
+  }
+
+  message.textContent = "Muvaffaqiyatli kirdingiz!";
+}
+
+    return;
+  }
+
+  message.textContent = data.session
+    ? "Muvaffaqiyatli ro‘yxatdan o‘tdingiz!"
+    : "Emailingizni tasdiqlash uchun pochtangizni tekshiring.";
+}
 </script></body></html>
